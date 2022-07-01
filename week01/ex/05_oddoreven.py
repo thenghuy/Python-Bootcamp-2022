@@ -1,4 +1,4 @@
-your_num=input("Input a number:")
+your_num=input("Input a number:\n")
 if your_num.isdigit():
     if int(your_num)%2==0:
         print("The number you have entered is Even")

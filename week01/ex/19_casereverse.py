@@ -1,7 +1,7 @@
-string=input("Enter your string here:")
+string=input("Enter a string :")
 new_string=""
 if string=="":
-    print("Empty")
+    print("The string is empty")
 else:
  for i in range(len(string)):
   n=ord(string[i])
