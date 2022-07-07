@@ -1,7 +1,7 @@
 import random
 INTRO_MESSAGE="Welcome to the dices game"
 print(INTRO_MESSAGE)
-number_of_dices_times = input("Enter the number of dices you want to roll:\n")
+number_of_dices_times = input("Enter the number of dices you want to roll:")
 def game():
     n=int(number_of_dices_times)
     sum = 0
@@ -14,7 +14,7 @@ def game():
            sum=sum+list[j]
            print(f"Dice {j + 1}: {list[j]}")
     print("="*10)
-    print("Result",sum)
+    print("RESULT:",sum)
     print("=" * 10)
 while True:
  if number_of_dices_times.isdigit() :
@@ -24,12 +24,12 @@ while True:
       break
      elif n>8:
       print("Usage:The number must be between 1 and 8")
-      number_of_dices_times = input("Enter the number of dices you want to roll:\n")
+      number_of_dices_times = input("Enter the number of dices you want to roll:")
       game()
       break
  else:
      print("Usage:The number must be between 1 and 8")
-     number_of_dices_times = input("Enter the number of dices you want to roll:\n")
+     number_of_dices_times = input("Enter the number of dices you want to roll:")
      game()
      break
 
