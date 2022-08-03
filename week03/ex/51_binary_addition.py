@@ -26,8 +26,8 @@ def binary_addition(num1,num2):
     result="".join(list[::-1])
     print("Num1                :  {}\n"
           "Num2                :  {}\n"
-          "Difference (Binary) :  {}\n"
-          "Difference (Decimal):  {} ".format(binary_num_1,binary_num_2,result,num1+num2))
+          "Sum (Binary) :  {}\n"
+          "Sum (Decimal):  {} ".format(binary_num_1,binary_num_2,result,num1+num2))
 binary_addition(60,50)
 
 
