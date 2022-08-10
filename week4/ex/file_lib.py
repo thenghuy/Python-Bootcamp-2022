@@ -1,6 +1,4 @@
-import inspect
 import os
-import requests
 class FileLib:
     def inspect(self):
         x=dir(FileLib)
